@@ -1,6 +1,6 @@
 {
-  "name": "react-d3-shape",
-  "version": "0.2.15",
+  "name": "react-d3-shape-roadcert-edition",
+  "version": "0.0.1",
   "description": "react shape component",
   "main": "./lib/index.js",
   "directories": {
@@ -11,7 +11,7 @@
     "build": "rm -rf ./lib && BABEL_ENV=production ./node_modules/.bin/babel ./src --out-dir ./lib",
     "prod": "BABEL_ENV=production NODE_ENV=0 webpack --config webpack.prod.config.js && BABEL_ENV=production NODE_ENV=1 webpack --config webpack.prod.config.js"
   },
-  "author": "ElixirDoc team",
+  "author": "James Cordeiro - Roadcert",
   "license": "Apache 2.0",
   "devDependencies": {
     "babel-cli": "^6.6.4",
@@ -40,14 +40,10 @@
     "webpack-dev-server": "^1.11.0",
     "webpack-hot-middleware": "^2.9.0"
   },
-  "peerDependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
-  },
   "dependencies": {
     "d3": "^3.5.6",
     "d3-scale": "^0.6.4",
     "d3-shape": "^0.5.1",
-    "react-d3-core": "^1.2.8"
+    "react-d3-core-roadcert-edition": "0.0.1"
   }
 }
